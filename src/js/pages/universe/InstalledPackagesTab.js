@@ -94,7 +94,7 @@ class InstalledPackagesTab extends mixin(StoreMixin) {
           <div className="control-group form-group flex-no-shrink flex-align-right flush-bottom">
             <FilterInputText
               className="flex-grow"
-              placeholder="Search"
+              placeholder="搜索"
               searchString={searchString}
               handleFilterChange={this.handleSearchStringChange}
             />
@@ -114,7 +114,7 @@ class InstalledPackagesTab extends mixin(StoreMixin) {
 }
 
 InstalledPackagesTab.routeConfig = {
-  label: "Installed",
+  label: "已安装",
   matches: /^\/universe\/installed-packages/
 };
 
